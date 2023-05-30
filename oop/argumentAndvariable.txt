@@ -1,0 +1,4 @@
+Parameter is the variable in the declaration of a function.
+parameter is a variable in a method.
+
+Argument is the actual value passed in when calling the function/method

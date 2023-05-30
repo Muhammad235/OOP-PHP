@@ -46,8 +46,10 @@ echo '<br>';
 $PersonCountry->set_age(43);
 echo $PersonCountry->get_age();
 
+$PersonCountry->set_height(40);
+echo $PersonCountry->get_height();
 
 
-mkdir('abstraction');
+
 
 ?>
