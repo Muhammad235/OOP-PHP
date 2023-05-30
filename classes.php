@@ -7,7 +7,7 @@ class Fruit{
     public $name;
     public $color;
 
-    //method
+    //methods
     function set_name($givenName){
         $this->name = $givenName;
     }
@@ -42,7 +42,6 @@ echo "The fruit ". $apple->getName(). " has color ". $apple->getColor();
 $apple = new Fruit();
 
 var_dump($apple instanceof Fruit);
-
 
 
 ?>

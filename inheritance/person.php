@@ -1,7 +1,7 @@
 <?php
 
-class People{
-    
+class Person{
+
     public $name;
     protected $age;
     private $height;
@@ -24,19 +24,8 @@ class People{
 }
 
 
-$person1 = new People();
-$person1->name = 'Muhammad';
-echo $person1->name;
 
-echo '<br>';
 
-$person1->set_age(31);
-echo $person1->get_age();
-
-echo '<br>';
-
-$person1->set_height(101);
-echo $person1->get_height();
 
 
 

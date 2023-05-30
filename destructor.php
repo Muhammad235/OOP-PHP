@@ -31,6 +31,7 @@ class Person{
 
 
 $person = new Person("muhammad", 40);
+
 echo "Name: ".$person->get_name();
 echo"<br>";
 echo "Age: ".$person->get_age();
