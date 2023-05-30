@@ -13,7 +13,7 @@ $playlist->addSong($song1);
 $playlist->addSong($song2);
 
 
-print count($playlist->songs);
+print count($playlist->songs) . PHP_EOL;
 
 foreach($playlist->songs as $song){
 
